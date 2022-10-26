@@ -236,6 +236,7 @@ h2 {
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 .book{
     width: 25%;
@@ -278,11 +279,18 @@ h2 {
     color: #bfbfbf;
 }
 
+/*
+ EXPLORE
+ */
 
+#explore {
+    background-color: rgba(115, 66, 214, 0.15);
+}
 
-
-
-
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
 
 
 
